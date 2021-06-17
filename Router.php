@@ -1,14 +1,14 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
-use app\core\exception\NotFoundException;
+use algorasoft\garden\exception\NotFoundException;
 
 /**
  *
  * Class Router
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 Class Router {
@@ -19,8 +19,8 @@ Class Router {
     /**
      * Router Constructor
      *
-     * @param app\core\Request $request
-     * @param app\core\Response $response
+     * @param algorasoft\garden\Request $request
+     * @param algorasoft\garden\Response $response
      */
 
     public function __construct(Request $request, Response $response) {
@@ -47,7 +47,7 @@ Class Router {
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \algorasoft\garden\Controller $controller */
             $controller                   = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action           = $callback[1];

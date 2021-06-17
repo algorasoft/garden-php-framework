@@ -1,16 +1,16 @@
 <?php
-namespace app\core\middlewares;
+namespace algorasoft\garden\middlewares;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\exception\ForbiddenException;
+use algorasoft\garden\Application;
+use algorasoft\garden\Controller;
+use algorasoft\garden\exception\ForbiddenException;
 
 /**
  *
  * Class AuthMiddleware
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\middlewares
+ * @package algorasoft\garden\middlewares
  */
 
 class AuthMiddleware extends BaseMiddleware {

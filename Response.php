@@ -1,12 +1,12 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
 /**
  *
  * Class Response
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 Class Response {

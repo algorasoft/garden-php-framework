@@ -1,12 +1,12 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
 /**
  *
  * Class View
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 class View {

@@ -1,15 +1,15 @@
 <?php
-namespace app\core\db;
+namespace algorasoft\garden\db;
 
-use app\core\Application;
-use app\core\Model;
+use algorasoft\garden\Application;
+use algorasoft\garden\Model;
 
 /**
  *
  * Class DbModel
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 abstract class DbModel extends Model {
 

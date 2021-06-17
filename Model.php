@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
 use Egulias\EmailValidator\EmailValidator;
 use Egulias\EmailValidator\Validation\DNSCheckValidation;
@@ -11,7 +11,7 @@ use Egulias\EmailValidator\Validation\RFCValidation;
  * Class Model
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 abstract class Model {

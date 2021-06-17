@@ -1,14 +1,14 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
-use app\core\middlewares\BaseMiddleware;
+use algorasoft\garden\middlewares\BaseMiddleware;
 
 /**
  *
  * Class Controller
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 Class Controller {
@@ -16,7 +16,7 @@ Class Controller {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \algorasoft\garden\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 

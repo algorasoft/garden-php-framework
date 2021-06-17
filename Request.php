@@ -1,19 +1,19 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
 /**
  *
  * Class Request
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 class Request {
 
     public function getPath() {
         $path     = $_SERVER['REQUEST_URI'] ?? '/';
         $position = strpos($path, '?');
-        if ($position === false) {
+        if (false === $position) {
             return $path;
         }
         return substr($path, 0, $position);

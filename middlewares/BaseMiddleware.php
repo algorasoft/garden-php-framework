@@ -1,12 +1,12 @@
 <?php
-namespace app\core\middlewares;
+namespace algorasoft\garden\middlewares;
 
 /**
  *
  * Class BaseMiddleware
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\middlewares
+ * @package algorasoft\garden\middlewares
  */
 
 abstract class BaseMiddleware {

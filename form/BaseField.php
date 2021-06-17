@@ -1,14 +1,14 @@
 <?php
-namespace app\core\form;
+namespace algorasoft\garden\form;
 
-use app\core\Model;
+use algorasoft\garden\Model;
 
 /**
  *
  * Class BaseField
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\form
+ * @package algorasoft\garden\form
  */
 
 abstract class BaseField {

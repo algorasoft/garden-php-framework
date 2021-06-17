@@ -1,13 +1,13 @@
 <?php
-namespace app\core\form;
-use app\core\Model;
+namespace algorasoft\garden\form;
+use algorasoft\garden\Model;
 
 /**
  *
  * Class Form
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\form
+ * @package algorasoft\garden\form
  */
 
 class Form {

@@ -1,14 +1,14 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
-use app\core\db\Database;
+use algorasoft\garden\db\Database;
 
 /**
  *
  * Class Application
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 Class Application {

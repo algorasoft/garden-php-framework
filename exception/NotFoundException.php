@@ -1,12 +1,12 @@
 <?php
-namespace app\core\exception;
+namespace algorasoft\garden\exception;
 
 /**
  *
  * Class ForbiddenException
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\exception
+ * @package algorasoft\garden\exception
  */
 
 class NotFoundException extends \Exception {

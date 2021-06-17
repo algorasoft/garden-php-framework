@@ -1,12 +1,12 @@
 <?php
-namespace app\core\form;
+namespace algorasoft\garden\form;
 
 /**
  *
  * Class TextareaField
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core\form
+ * @package algorasoft\garden\form
  */
 
 class TextareaField extends BaseField {

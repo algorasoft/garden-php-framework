@@ -1,12 +1,12 @@
 <?php
-namespace app\core;
+namespace algorasoft\garden;
 
 /**
  *
  * Class Session
  *
  * @author ROMAN ISRAEL <cto@algorasoft.com>
- * @package app\core
+ * @package algorasoft\garden
  */
 
 Class Session {
