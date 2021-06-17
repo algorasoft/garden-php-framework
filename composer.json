@@ -4,5 +4,10 @@
         "name": "Roman Israel",
         "email": "cto@algorasoft.com"
     }],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "algorasoft\\garden": "./"
+        }
+    }
 }
