@@ -4,7 +4,10 @@
         "name": "Roman Israel",
         "email": "cto@algorasoft.com"
     }],
-    "require": {},
+    "require": {
+        "php": ">=7.4",
+        "egulias/email-validator": "^3.1.1"
+    },
     "autoload": {
         "psr-4": {
             "algorasoft\\garden\\": "./"
